@@ -30,7 +30,7 @@ public class MainWindowFX extends Application {
 			root.setHgap(25);
 			root.setVgap(15);
 
-			Label lbSortAl = new Label("Sorting Algorithm");
+			Label lbSortAl = new Label("Sorting Algorithm: ");
 			ObservableList<String> sortStrings = FXCollections.observableArrayList(
 					Arrays.asList("Bubble sort", "Selection sort", "Insertion sort", "Shell sort"));
 			ComboBox<String> cbSortAl = new ComboBox<>(sortStrings);
