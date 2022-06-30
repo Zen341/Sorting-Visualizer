@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="379.0" prefWidth="509.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="hust.soict.ictglobal.gui.javafx.HelloJavaFX_ShowDateTime.MyController">
+   <children>
+      <Button fx:id="myButton" layoutX="109.0" layoutY="106.0" mnemonicParsing="false" onAction="#showDateTime" text="Show Date Time" />
+      <TextField fx:id="myTextField" layoutX="86.0" layoutY="211.0" prefHeight="39.0" prefWidth="298.0" />
+   </children>
+</AnchorPane>
