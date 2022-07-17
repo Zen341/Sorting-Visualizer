@@ -28,6 +28,7 @@ public class MainWindowFX extends Application {
 			GridPane root = new GridPane();
 			root.setPadding(new Insets(20));
 			root.setHgap(25);
+
 			root.setVgap(15);
 
 			Label lbSortAl = new Label("Sorting Algorithm: ");

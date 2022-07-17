@@ -195,8 +195,6 @@ public class InsertionSortWorker extends JPanel {
 
 					items[j + 1] = items[j];
 
-					// Unmark the item
-//					setNewColor(getDefaultColor(), j);
 					publish(Arrays.copyOf(items, items.length));
 					try {
 						Thread.sleep(getMilisec());
